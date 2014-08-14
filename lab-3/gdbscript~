@@ -1,6 +1,6 @@
 target remote :1234
 b main
-continue
+run
 display/10i $pc
 display/x $r0
 display/x $r1
